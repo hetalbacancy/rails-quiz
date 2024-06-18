@@ -1,2 +1,7 @@
 @import 'bootstrap/scss/bootstrap';
 @import 'custom/layout';
+.navbar {
+	>.container {
+		display: block !important;
+	}
+}
