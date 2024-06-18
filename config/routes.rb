@@ -4,5 +4,6 @@ Rails.application.routes.draw do
   ActiveAdmin.routes(self)
 
   resources :people, only: [:index, :new, :create]
+  resources :companies
   root to: 'people#index'
 end

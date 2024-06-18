@@ -1,4 +1,12 @@
-h2 Viewing people
+.row  
+  .col.mt-3
+    h4.mb-0 Viewing people
+  .col-auto.d-flex.align-items-center
+    = link_to('Create', new_person_path, class: 'btn btn-primary')
+.row
+  form.d-flex
+    input.form-control.me-2[type="search" placeholder="Search" aria-label="Search"]
+    button.btn.btn-outline-success[type="submit"] Search
 
 table.table
   thead
